@@ -11,9 +11,7 @@ Migrations/20190619211705_EnumType.cs
 Migrations/20190618121431_addWeathertoDB.Designer.cs
 Migrations/20190618121431_addWeathertoDB.cs
 Migrations/20190619211705_EnumType.Designer.cs
-Migrations/20190619220414_locationfk.Designer.cs
 Migrations/WeatherContextModelSnapshot.cs
-Migrations/20190619220414_locationfk.cs
 Migrations/20190619220218_location2.Designer.cs
 Migrations/20190619220218_location2.cs
 Migrations/20190619215431_type1.cs
