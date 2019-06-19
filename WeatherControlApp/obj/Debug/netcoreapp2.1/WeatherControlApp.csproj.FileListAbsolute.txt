@@ -12,3 +12,17 @@ C:\Users\Korisnik\Desktop\WeatherControlApp\WeatherControlApp\bin\Debug\netcorea
 C:\Users\Korisnik\Desktop\WeatherControlApp\WeatherControlApp\obj\Debug\netcoreapp2.1\WeatherControlApp.RazorTargetAssemblyInfo.cache
 C:\Users\Korisnik\Desktop\WeatherControlApp\WeatherControlApp\obj\Debug\netcoreapp2.1\WeatherControlApp.dll
 C:\Users\Korisnik\Desktop\WeatherControlApp\WeatherControlApp\obj\Debug\netcoreapp2.1\WeatherControlApp.pdb
+C:\Users\Korisnik\Desktop\WeatherControlAi\WeatherControlApp\bin\Debug\netcoreapp2.1\WeatherControlApp.deps.json
+C:\Users\Korisnik\Desktop\WeatherControlAi\WeatherControlApp\bin\Debug\netcoreapp2.1\WeatherControlApp.runtimeconfig.json
+C:\Users\Korisnik\Desktop\WeatherControlAi\WeatherControlApp\bin\Debug\netcoreapp2.1\WeatherControlApp.runtimeconfig.dev.json
+C:\Users\Korisnik\Desktop\WeatherControlAi\WeatherControlApp\bin\Debug\netcoreapp2.1\WeatherControlApp.dll
+C:\Users\Korisnik\Desktop\WeatherControlAi\WeatherControlApp\bin\Debug\netcoreapp2.1\WeatherControlApp.pdb
+C:\Users\Korisnik\Desktop\WeatherControlAi\WeatherControlApp\obj\Debug\netcoreapp2.1\WeatherControlApp.csprojAssemblyReference.cache
+C:\Users\Korisnik\Desktop\WeatherControlAi\WeatherControlApp\obj\Debug\netcoreapp2.1\WeatherControlApp.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Desktop\WeatherControlAi\WeatherControlApp\obj\Debug\netcoreapp2.1\WeatherControlApp.RazorAssemblyInfo.cache
+C:\Users\Korisnik\Desktop\WeatherControlAi\WeatherControlApp\obj\Debug\netcoreapp2.1\WeatherControlApp.RazorAssemblyInfo.cs
+C:\Users\Korisnik\Desktop\WeatherControlAi\WeatherControlApp\obj\Debug\netcoreapp2.1\WeatherControlApp.AssemblyInfoInputs.cache
+C:\Users\Korisnik\Desktop\WeatherControlAi\WeatherControlApp\obj\Debug\netcoreapp2.1\WeatherControlApp.AssemblyInfo.cs
+C:\Users\Korisnik\Desktop\WeatherControlAi\WeatherControlApp\obj\Debug\netcoreapp2.1\WeatherControlApp.RazorTargetAssemblyInfo.cache
+C:\Users\Korisnik\Desktop\WeatherControlAi\WeatherControlApp\obj\Debug\netcoreapp2.1\WeatherControlApp.dll
+C:\Users\Korisnik\Desktop\WeatherControlAi\WeatherControlApp\obj\Debug\netcoreapp2.1\WeatherControlApp.pdb

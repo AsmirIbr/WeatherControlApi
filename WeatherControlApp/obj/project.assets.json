@@ -11803,11 +11803,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Korisnik\\Desktop\\WeatherControlApp\\WeatherControlApp\\WeatherControlApp.csproj",
+      "projectUniqueName": "C:\\Users\\Korisnik\\Desktop\\WeatherControlAi\\WeatherControlApp\\WeatherControlApp.csproj",
       "projectName": "WeatherControlApp",
-      "projectPath": "C:\\Users\\Korisnik\\Desktop\\WeatherControlApp\\WeatherControlApp\\WeatherControlApp.csproj",
+      "projectPath": "C:\\Users\\Korisnik\\Desktop\\WeatherControlAi\\WeatherControlApp\\WeatherControlApp.csproj",
       "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Korisnik\\Desktop\\WeatherControlApp\\WeatherControlApp\\obj\\",
+      "outputPath": "C:\\Users\\Korisnik\\Desktop\\WeatherControlAi\\WeatherControlApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -10,5 +10,11 @@ namespace WeatherControlApp.Models
         }
 
         public DbSet<Weather> WeatherItems {get; set;}
+        public DbSet<WeatherType> WeatherType {get; set;}
+
+        public DbSet<Location> Location {get; set;}
+
+
+
     }
 }
