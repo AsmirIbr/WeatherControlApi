@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WeatherControlApp.Models;
@@ -17,7 +18,6 @@ namespace WeatherControlApp.Controllers
         }
 
         // GET: api/weather
-
         [HttpGet]
         public ActionResult<IEnumerable<Weather>> GetWeather()
         {
@@ -25,6 +25,7 @@ namespace WeatherControlApp.Controllers
         }
 
         // GET: api/weather/n
+        [Authorize]
         [HttpGet("{id}")]
         public ActionResult<Weather> GetWeatherItem(int id)
         {
@@ -39,6 +40,7 @@ namespace WeatherControlApp.Controllers
         }
 
         //POST: api/weather
+        [Authorize]
         [HttpPost]
         public ActionResult<Weather> PostWeatherItem(Weather weather)
         {
@@ -49,6 +51,7 @@ namespace WeatherControlApp.Controllers
         }
 
         //PUT: api/weather/n
+        [Authorize]
         [HttpPut("{id}")]
         public ActionResult PutWeatherItem(int id, Weather weather)
         {
@@ -63,6 +66,7 @@ namespace WeatherControlApp.Controllers
         }
 
         //DELETE: /api/Weather/n
+        [Authorize]
         [HttpDelete("{id}")]
         public ActionResult<Weather> DeleteWeatherItem(int id)
         {

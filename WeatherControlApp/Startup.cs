@@ -10,6 +10,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
 using WeatherControlApp.Models;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 
 namespace WeatherControlApp
 {
@@ -27,12 +29,28 @@ namespace WeatherControlApp
         {
             services.AddDbContext<WeatherContext>
                 (opt => opt.UseSqlServer(Configuration["Data:WeatherAPIConnection:ConnectionString"]));
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-        }
 
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+            .AddJwtBearer(options =>
+            {
+                var signingKey = Convert.FromBase64String(Configuration["Authentication:SigningSecret"]);
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuer = false,
+                    ValidateAudience = false,
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(signingKey)
+                };
+            });
+
+        }
+        
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-           app.UseMvc();
+            app.UseAuthentication();
+            app.UseMvcWithDefaultRoute();
         }
     }
 }
